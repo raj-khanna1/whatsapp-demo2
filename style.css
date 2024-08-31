@@ -1,0 +1,58 @@
+#body{
+    background-color: #0E161A;
+}
+#main-div{
+    margin-top: 0px;
+    height: 770px;
+    width: 1410px;
+    background-color: #0E161A;
+}
+
+#left-menu{
+    height: 100%;
+    width: 50px;
+    float: left;
+    background-color: #1A2329;
+}
+#chats{
+    height: 100%;
+    width: 450px;
+    float: left;
+    background-color: #091015;
+}
+#chat-body{
+    height: 100%;
+    width: 900px;
+    float: left;
+    background-color: rgba(41, 37, 44, 0.5);
+}
+#heading{
+    height: 70px;
+    width: 900px;
+    background-color: #1A2329;
+}
+#main-chat-body{
+    height: 635px;
+    width: 900px;
+    background-image: url(background3.jpg);
+    opacity: 3;
+    overflow-y: scroll;
+}
+#text-box-wala-div{
+    height: 65px;
+    width: 900px;
+    background-color: #1A2329;
+}
+.msges{
+    font-size: 30px;
+    color: aliceblue;
+    align-self: right;
+}
+#real-txt-box{
+    border-radius: 8px;
+    width: 750px;
+    height: 40px;
+    float:right;
+    background-color: rgb(194, 211, 205);
+    font-size: 30px;
+}
