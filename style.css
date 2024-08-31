@@ -3,44 +3,44 @@
 }
 #main-div{
     margin-top: 0px;
-    height: 770px;
-    width: 1410px;
+    height: 48rem;
+    width: 88rem;
     background-color: #0E161A;
 }
 
 #left-menu{
     height: 100%;
-    width: 50px;
+    width: 3rem;
     float: left;
     background-color: #1A2329;
 }
 #chats{
     height: 100%;
-    width: 450px;
+    width: 28rem;
     float: left;
     background-color: #091015;
 }
 #chat-body{
     height: 100%;
-    width: 900px;
+    width: 45rem;
     float: left;
     background-color: rgba(41, 37, 44, 0.5);
 }
 #heading{
-    height: 70px;
-    width: 900px;
+    height: 4rem;
+    width: 56rem;
     background-color: #1A2329;
 }
 #main-chat-body{
-    height: 635px;
-    width: 900px;
+    height: 40rem;
+    width: 56rem;
     background-image: url(background3.jpg);
     opacity: 3;
     overflow-y: scroll;
 }
 #text-box-wala-div{
-    height: 65px;
-    width: 900px;
+    height: 4rem;
+    width: 56rem;
     background-color: #1A2329;
 }
 .msges{
@@ -50,10 +50,15 @@
 }
 #real-txt-box{
     border-radius: 8px;
-    width: 750px;
-    height: 40px;
+    width: 40rem;
+    height: 2.5rem;
     float:right;
-    background-color: rgb(194, 211, 205);
+    margin-right: 4rem;
+    background-color: rgb(162, 175, 171);
     font-size: 30px;
     /* ok */
+}
+#real-txt-box:hover{
+    transform: scale(1.1);
+    background-color: white;
 }
